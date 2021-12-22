@@ -7,7 +7,7 @@ import FeedbackStats from './components/FeedbackStats';
 import FeedbackForm from './components/FeedbackForm';
 import AboutPage from './Pages/AboutPage';
 import {FeedbackProvider} from './context/FeedbackContext'
-import Card from './components/shared/Card';
+
 
 
 function App() {
