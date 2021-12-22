@@ -43,8 +43,7 @@ export const FeedbackProvider = ({children}) => {
 
     //Update feedback Item
     const updateFeedback = (id, upItem) => {
-       setFeedback(feedback.map((item) => item.id === id ? {...
-    item, ...upItem } : item))
+       setFeedback(feedback.map((item) => item.id === id ? {...item, ...upItem } : item))
     }
 
     // Set item to be updated
